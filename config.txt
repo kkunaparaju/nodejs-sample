@@ -1,2 +1,3 @@
 configValue
 Sample text
+<%= render "one.txt.erb" %>
