@@ -1,1 +1,2 @@
 configValue
+Sample text
