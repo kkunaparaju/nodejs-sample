@@ -11,7 +11,7 @@ app.get('/test', function(req, res) {
 });
 
 app.get('/', function(req, res){
-	res.send("S: " +os.hostname());
+	res.send("Server: " +os.hostname());
 });
 
 app.listen(app.get('port'));
