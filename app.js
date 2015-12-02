@@ -11,7 +11,7 @@ var os = require('os');
 // });
 
 app.get('/', function(req, res){
-	res.send("Server Name: " +os.hostname());
+	res.send("Server IP: " +os.hostname());
 });
 
 app.listen(app.get('port'));
